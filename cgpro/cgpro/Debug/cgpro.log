@@ -1,0 +1,37 @@
+﻿  소스.cpp
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(20): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(31): warning C4838: 'double'에서 'GLfloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(31): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(32): warning C4838: 'double'에서 'GLfloat'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(32): warning C4305: '초기화 중': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(70): warning C4244: '초기화 중': 'std::streamoff'에서 '::size_t'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(145): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(150): warning C4244: '인수': 'double'에서 'GLint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(267): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(373): warning C4305: '+=': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\user\source\repos\cgpro\cgpro\소스.cpp(377): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  소스1.cpp
+  코드를 생성하고 있습니다...
+소스.obj : error LNK2019: __imp__glutInitWindowPosition@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutInitWindowSize@8 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutInitDisplayMode@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutMainLoop@0 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutPostRedisplay@0 외부 기호(참조 위치: "void __cdecl MenuProc(int)" (?MenuProc@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutSwapBuffers@0 외부 기호(참조 위치: "void __cdecl MyDisplay(void)" (?MyDisplay@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutAddMenuEntry@8 외부 기호(참조 위치: "void __cdecl MenuFunc(void)" (?MenuFunc@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutAddSubMenu@8 외부 기호(참조 위치: "void __cdecl MenuFunc(void)" (?MenuFunc@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutAttachMenu@4 외부 기호(참조 위치: "void __cdecl MenuFunc(void)" (?MenuFunc@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutTimerFunc@12 외부 기호(참조 위치: "void __cdecl MyTimer(int)" (?MyTimer@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutKeyboardFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutSpecialFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutReshapeFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutDisplayFunc@4 외부 기호(참조 위치: _main 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutSolidCube@8 외부 기호(참조 위치: "void __cdecl map(void)" (?map@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp__glutWireSphere@16 외부 기호(참조 위치: "void __cdecl MyDisplay(void)" (?MyDisplay@@YAXXZ) 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp____glutInitWithExit@12 외부 기호(참조 위치: _glutInit_ATEXIT_HACK@8 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp____glutCreateWindowWithExit@8 외부 기호(참조 위치: _glutCreateWindow_ATEXIT_HACK@4 함수)에서 확인하지 못했습니다.
+소스.obj : error LNK2019: __imp____glutCreateMenuWithExit@8 외부 기호(참조 위치: _glutCreateMenu_ATEXIT_HACK@4 함수)에서 확인하지 못했습니다.
+.\lib\freeglut.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+.\lib\glew32.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+.\lib\glfw3.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\user\source\repos\cgpro\Debug\cgpro.exe : fatal error LNK1120: 19개의 확인할 수 없는 외부 참조입니다.
